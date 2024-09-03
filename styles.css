@@ -1,0 +1,68 @@
+/* Algemene reset en body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('pattern.svg');
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container content styling */
+.container-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Koptekst styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: hsla(110, 37%, 20%, 1);
+}
+
+/* Paragraaf styling */
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Donatieknop styling */
+.donation-button {
+    display: inline-block;
+    background-color: hsla(110, 37%, 20%, 1);
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.donation-button:hover {
+    background-color: hsla(0, 68%, 42%, 1); 
+}
+
+/* Link styling */
+.link {
+    display: inline-block;
+    margin-top: 20px; 
+    color: hsla(0, 68%, 42%, 1); 
+    text-decoration: none; 
+}
+
+.link:hover {
+    text-decoration: underline;
+}
